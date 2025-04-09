@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight.css" layer(base);
+
+@layer base;
+
+:root {
+  --background: #32acf3d1;
+  --foreground: #171717;
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #32acf3d1;
+    --foreground: #ededed;
+  }
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    color: var(--foreground);
+    background: var(--background);
+  }
+
+  h2 {
+    font-size: xx-large;
+    font-weight: 600;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
