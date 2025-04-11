@@ -15,6 +15,8 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
+        <div id="backdrop-hook"></div>
+        <div id="modal-hook"></div>
         <RootProvider>{children}</RootProvider>
       </body>
     </html>
