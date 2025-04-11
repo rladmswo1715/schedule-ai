@@ -10,7 +10,7 @@ const InnerLayout = ({ children, className = "" }: InnerLayoutProps) => {
   return (
     <div
       className={twMerge(
-        "w-full max-w-[64rem] min-h-[50rem] mt-[6rem] mx-auto border-4 border-white rounded-md",
+        "w-full max-w-[68rem] min-h-[50rem] mt-[6rem] mx-auto",
         className
       )}
     >

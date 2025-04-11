@@ -4,15 +4,15 @@
 @layer base;
 
 :root {
-  --background: #32acf3d1;
-  --foreground: #171717;
+  --background: #6770da;
+  --foreground: #ededed;
   box-sizing: border-box;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #32acf3d1;
-    --foreground: #ededed;
+    --background: #ededed;
+    --foreground: #101828;
   }
 }
 
@@ -26,8 +26,8 @@
     background: var(--background);
   }
 
-  h2 {
-    font-size: xx-large;
+  h1 {
+    font-size: 60px;
     font-weight: 600;
   }
 
